@@ -1,0 +1,9 @@
+<h1>Criando layout</h1>
+<p>O nome do usuário é {{user.name}} {{user.surname}}</p>
+<mark>{{palavra}}</mark>
+{{#if auth}} 
+    <p>Autenticado, acessar dashboard: </p>
+    <a href="/dashboard">Acessar</a>
+{{else}}
+    <p>Não autenticado!</p>
+{{/if}}
